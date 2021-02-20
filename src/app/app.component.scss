@@ -1,0 +1,86 @@
+.toolbar {
+    background-color: white;
+    border-bottom: 1px solid #dce1e6;
+
+    .toolbar-container {
+        display: flex;
+        align-items: center;
+        height: 50px;
+
+        .logo {
+            height: 12px;
+        }
+    }
+}
+
+.flilia {
+    margin-top: 6%;
+    margin-bottom: 7%;
+
+    .flilia-container {
+        max-width: 382px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        background-color: white;
+        border: 1px solid #dce1e6;
+        border-radius: 4px;
+        padding: 26px;
+
+        .logo {
+            width: auto;
+            height: 18px;
+        }
+
+        .text {
+            text-align: justify;
+            margin: 16px 0;
+
+            p:first-child {
+                font-size: 20px;
+                text-align: initial;
+            }
+        }
+
+        .next {
+            color: white;
+            border: none;
+            border-radius: 100px;
+            padding: 10px 30px;
+            font-size: 15px;
+            cursor: pointer;
+            outline: none;
+            background-image: -webkit-linear-gradient(356deg, #ff6d70, #ff8b2c);
+            background-image: -o-linear-gradient(356deg, #ff6d70, #ff8b2c);
+            background-image: linear-gradient(94deg, #ff6d70, #ff8b2c);
+            transition: transform 0.2s;
+            text-decoration: none;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+    }
+}
+
+.footer {
+    .footer-container {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 40px;
+
+        .help {
+            text-align: right;
+
+            a {
+                color: cornflowerblue;
+                text-decoration: none;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
